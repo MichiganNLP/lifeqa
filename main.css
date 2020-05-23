@@ -1,5 +1,11 @@
+html {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
 body {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -8,18 +14,45 @@ body {
 
 #authors {
   list-style-type: none;
+  padding: 0;
 }
 
 #authors li {
   display: inline;
   margin: 0 20px;
+  white-space: nowrap;
 }
 
-#authors li a {
+#authors li a, #acknowledgments-text a, #affiliation a {
   color: inherit;
   text-decoration: inherit;
 }
 
-#authors li a:hover {
+#authors li a:hover, #acknowledgments-text a:hover, #affiliation a:hover {
   text-decoration: underline;
+}
+
+#quick-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+#quick-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+#thumbnails {
+  list-style-type: none;
+  padding: 0;
+}
+
+#thumbnails li {
+  display: inline;
+}
+
+pre {
+  display: block;
+  text-align: left;
+  white-space: pre-wrap
 }

@@ -27,24 +27,29 @@
     <ol id="authors">
       <li><a href="https://santi.uy">Santiago Castro</a></li>
       <li><a href="https://web.eecs.umich.edu/~mazab/">Mahmoud Azab</a></li>
-      <li>Jonathan C. Stroud</li>
+      <li><a href="https://www.jonathancstroud.com/">Jonathan C. Stroud</a></li>
       <li>Cristina Noujaim</li>
       <li>Ruoyao Wang</li>
-      <li>Jia Deng</li>
-      <li>Rada Mihalcea</li>
+      <li><a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a></li>
+      <li><a href="https://web.eecs.umich.edu/~mihalcea/">Rada Mihalcea</a></li>
     </ol>
 
-    <!-- TODO: people's homepage links -->
+    <p id="affiliation"><a href="https://umich.edu/">University of Michigan</a></p>
 
-    <p id="affiliation">University of Michigan</p>
+    <ul id="quick-links">
+      <li><a href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.536.pdf">Paper</a></li>
 
-    Paper Code
+      <li><a href="https://github.com/mmazab/LifeQA">Code</a></li>
+
+      <!-- TODO: ACL anthology link -->
+    </ul>
   </header>
 
   <div>
     <h2>Abstract</h2>
     <p>
-      We introduce LifeQA, a benchmark dataset for video question answering that focuses on day-to-day real-life
+      We introduce <b>LifeQA</b>, a benchmark dataset for video question answering that focuses on day-to-day
+      real-life
       situations. Current video question answering datasets consist of movies and TV shows. However, it is well-known
       that these visual domains are not representative of our day-to-day lives. Movies and TV shows, for example,
       benefit from professional camera movements, clean editing, crisp audio recordings, and scripted dialog between
@@ -57,14 +62,17 @@
   </div>
 
   <div>
-    TODO: paper link
-
-    <!-- TODO: paper preview -->
-  </div>
-
-  <div>
-    <h2>Code</h2>
-    <p>The code is available on GitHub (TODO: link).</p>
+    <a href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.536.pdf">
+      <ol id="thumbnails">
+        <li><img src="img/thumb-0.png" alt="thumbnail, page 0"/></li>
+        <li><img src="img/thumb-1.png" alt="thumbnail, page 1"/></li>
+        <li><img src="img/thumb-2.png" alt="thumbnail, page 2"/></li>
+        <li><img src="img/thumb-3.png" alt="thumbnail, page 3"/></li>
+        <li><img src="img/thumb-4.png" alt="thumbnail, page 4"/></li>
+        <li><img src="img/thumb-5.png" alt="thumbnail, page 5"/></li>
+        <li><img src="img/thumb-6.png" alt="thumbnail, page 6"/></li>
+      </ol>
+    </a>
   </div>
 
   <div>
@@ -74,15 +82,41 @@
 
   <div>
     <h2>Citation</h2>
-    <p>TODO</p>
+
+    <pre>
+@InProceedings{castro-EtAl:2020:LREC,
+  author    = {Castro, Santiago  and  Azab, Mahmoud  and  Stroud, Jonathan  and  Noujaim, Cristina  and  Wang, Ruoyao
+      and  Deng, Jia  and  Mihalcea, Rada},
+  title     = {LifeQA: A Real-life Dataset for Video Question Answering},
+  booktitle = {Proceedings of The 12th Language Resources and Evaluation Conference},
+  month     = {May},
+  year      = {2020},
+  address   = {Marseille, France},
+  publisher = {European Language Resources Association},
+  pages     = {4352--4358},
+  abstract  = {We introduce LifeQA, a benchmark dataset for video question answering that focuses on day-to-day real-life situations. Current video question answering datasets consist of movies and TV shows. However, it is well-known that these visual domains are not representative of our day-to-day lives. Movies and TV shows, for example, benefit from professional camera movements, clean editing, crisp audio recordings, and scripted dialog between professional actors. While these domains provide a large amount of data for training models, their properties make them unsuitable for testing real-life question answering systems. Our dataset, by contrast, consists of video clips that represent only real-life scenarios. We collect 275 such video clips and over 2.3k multiple-choice questions. In this paper, we analyze the challenging but realistic aspects of LifeQA, and we apply several state-of-the-art video question answering models to provide benchmarks for future research. The full dataset is publicly available at https://lit.eecs.umich.edu/lifeqa/.},
+  url       = {https://www.aclweb.org/anthology/2020.lrec-1.536}
+}
+    </pre>
   </div>
 
   <div>
     <h2>Acknowledgments</h2>
-    <p>TODO</p>
+    <p id="acknowledgments-text">
+      We are grateful to Aurelia Bunescu, <a href="https://dsouzadaniel.github.io/">Daniel D'Souza</a>,
+      <a href="https://haoopeng.github.io/">Penghao He</a>,
+      <a href="https://shubham14.github.io/">Shubham Dash</a>, and
+      <a href="http://www-personal.umich.edu/~ywchao/">Yu-Wei Chao</a> for their help with the collection and annotation
+      of the dataset. This material is based in part upon work supported by the
+      <a href="https://www.tri.global/">Toyota Research Institute ("TRI")</a>. Any opinions, findings, and conclusions
+      or recommendations expressed in this material are those of the authors and do not necessarily reflect the views
+      of TRI or any other Toyota entity.
+    </p>
   </div>
 
 </div>
+
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 
 </body>
 
