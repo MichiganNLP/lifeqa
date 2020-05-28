@@ -18,8 +18,8 @@ body {
 }
 
 #authors li {
-  display: inline;
-  margin: 0 20px;
+  display: inline-flex;
+  margin: 5px 20px;
   white-space: nowrap;
 }
 
@@ -32,6 +32,10 @@ body {
   text-decoration: underline;
 }
 
+#affiliation {
+  margin: 24px 0;
+}
+
 #quick-links {
   list-style-type: none;
   padding: 0;
@@ -40,6 +44,10 @@ body {
 #quick-links li {
   display: inline;
   margin: 0 10px;
+}
+
+#abstract {
+  text-align: justify;
 }
 
 #thumbnails {
