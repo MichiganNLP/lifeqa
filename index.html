@@ -22,19 +22,11 @@
 <div class="container">
 
   <header>
+    <img id="lit" src="img/lit.png" alt="Language and Information Technologies (LIT) logo">
+
+    <img id="um" src="img/um.png" alt="University of Michigan logo">
+
     <h1>LifeQA: A Real-life Dataset for Video Question Answering</h1>
-
-    <ol id="authors">
-      <li><a href="https://santi.uy">Santiago Castro</a></li>
-      <li><a href="https://web.eecs.umich.edu/~mazab/">Mahmoud Azab</a></li>
-      <li><a href="https://www.jonathancstroud.com/">Jonathan C. Stroud</a></li>
-      <li>Cristina Noujaim</li>
-      <li>Ruoyao Wang</li>
-      <li><a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a></li>
-      <li><a href="https://web.eecs.umich.edu/~mihalcea/">Rada Mihalcea</a></li>
-    </ol>
-
-    <p id="affiliation"><a href="https://umich.edu/">University of Michigan</a></p>
 
     <ul id="quick-links">
       <li><a href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.536.pdf">Paper</a></li>
@@ -42,10 +34,12 @@
       <li><a href="https://github.com/mmazab/LifeQA">Code</a></li>
 
       <li><a href="https://www.aclweb.org/anthology/2020.lrec-1.536/">ACL Anthology page</a></li>
+
+      <li><a href="https://www.aclweb.org/anthology/2020.lrec-1.536.bib">BibTeX Citation</a></li>
     </ul>
   </header>
 
-  <div>
+  <section>
     <h2>Abstract</h2>
     <p id="abstract">
       We introduce <b>LifeQA</b>, a benchmark dataset for video question answering that focuses on day-to-day
@@ -59,50 +53,96 @@
       questions. In this paper, we analyze the challenging but realistic aspects of LifeQA, and we apply several
       state-of-the-art video question answering models to provide benchmarks for future research.
     </p>
-  </div>
+  </section>
 
-  <div>
+  <section>
     <a href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.536.pdf">
       <ol id="thumbnails">
-        <li><img src="img/thumb-0.png" alt="thumbnail, page 0"/></li>
-        <li><img src="img/thumb-1.png" alt="thumbnail, page 1"/></li>
-        <li><img src="img/thumb-2.png" alt="thumbnail, page 2"/></li>
-        <li><img src="img/thumb-3.png" alt="thumbnail, page 3"/></li>
-        <li><img src="img/thumb-4.png" alt="thumbnail, page 4"/></li>
-        <li><img src="img/thumb-5.png" alt="thumbnail, page 5"/></li>
-        <li><img src="img/thumb-6.png" alt="thumbnail, page 6"/></li>
+        <li><img src="img/thumbs/0.png" alt="thumbnail, page 0"/></li>
+        <li><img src="img/thumbs/1.png" alt="thumbnail, page 1"/></li>
+        <li><img src="img/thumbs/2.png" alt="thumbnail, page 2"/></li>
+        <li><img src="img/thumbs/3.png" alt="thumbnail, page 3"/></li>
+        <li><img src="img/thumbs/4.png" alt="thumbnail, page 4"/></li>
+        <li><img src="img/thumbs/5.png" alt="thumbnail, page 5"/></li>
+        <li><img src="img/thumbs/6.png" alt="thumbnail, page 6"/></li>
       </ol>
     </a>
-  </div>
+  </section>
 
-  <div>
+  <section>
+    <ol id="authors">
+      <li>
+        <a href="https://santi.uy">
+          <div class="author-img-container">
+            <img src="img/authors/santi.jpeg" alt="Santiago Castro profile picture">
+          </div>
+          Santiago Castro
+        </a>
+      </li>
+      <li>
+        <a href="https://web.eecs.umich.edu/~mazab/">
+          <div class="author-img-container">
+            <img src="img/authors/mazab.png" alt="Mahmoud Azab profile picture">
+          </div>
+          Mahmoud Azab
+        </a>
+      </li>
+      <li>
+        <a href="https://www.jonathancstroud.com/">
+          <div class="author-img-container">
+            <img src="img/authors/jonathan.png" alt="Jonathan C. Stroud profile picture">
+          </div>
+          Jonathan C. Stroud
+        </a>
+      </li>
+      <li>
+        <div>
+          <div class="author-img-container">
+            <img src="img/authors/cristina.jpg" alt="Cristina Noujaim profile picture">
+          </div>
+          Cristina Noujaim
+        </div>
+      </li>
+      <li>
+        <div>
+          <div class="author-img-container">
+            <img src="img/authors/ruoyao.jpg" alt="Ruoyao Wang profile picture">
+          </div>
+          Ruoyao Wang
+        </div>
+      </li>
+      <li>
+        <a href="https://www.cs.princeton.edu/~jiadeng/">
+          <div class="author-img-container">
+            <img src="img/authors/jia.jpg" alt="Jia Deng profile picture">
+          </div>
+          Jia Deng
+        </a>
+      </li>
+      <li>
+        <a href="https://web.eecs.umich.edu/~mihalcea/">
+          <div class="author-img-container">
+            <img src="img/authors/rada.jpg" alt="Rada Mihalcea profile picture">
+          </div>
+          Rada Mihalcea
+        </a>
+      </li>
+    </ol>
+
+    <p id="affiliation">
+      <a href="https://umich.edu/">
+        <img id="um-vertical" alt="University of Michigan" src="img/um-vertical.png">
+      </a>
+    </p>
+
+  </section>
+
+  <section>
     <h2>Downloads</h2>
     <p>TODO: file with links, features</p>
-  </div>
+  </section>
 
-  <div>
-    <h2>Citation</h2>
-
-    <pre>
-      <code>
-@InProceedings{castro-EtAl:2020:LREC,
-  author    = {Castro, Santiago  and  Azab, Mahmoud  and  Stroud, Jonathan  and  Noujaim, Cristina  and  Wang, Ruoyao
-      and  Deng, Jia  and  Mihalcea, Rada},
-  title     = {LifeQA: A Real-life Dataset for Video Question Answering},
-  booktitle = {Proceedings of The 12th Language Resources and Evaluation Conference},
-  month     = {May},
-  year      = {2020},
-  address   = {Marseille, France},
-  publisher = {European Language Resources Association},
-  pages     = {4352--4358},
-  abstract  = {We introduce LifeQA, a benchmark dataset for video question answering that focuses on day-to-day real-life situations. Current video question answering datasets consist of movies and TV shows. However, it is well-known that these visual domains are not representative of our day-to-day lives. Movies and TV shows, for example, benefit from professional camera movements, clean editing, crisp audio recordings, and scripted dialog between professional actors. While these domains provide a large amount of data for training models, their properties make them unsuitable for testing real-life question answering systems. Our dataset, by contrast, consists of video clips that represent only real-life scenarios. We collect 275 such video clips and over 2.3k multiple-choice questions. In this paper, we analyze the challenging but realistic aspects of LifeQA, and we apply several state-of-the-art video question answering models to provide benchmarks for future research. The full dataset is publicly available at https://lit.eecs.umich.edu/lifeqa/.},
-  url       = {https://www.aclweb.org/anthology/2020.lrec-1.536}
-}
-      </code>
-    </pre>
-  </div>
-
-  <div>
+  <section>
     <h2>Acknowledgments</h2>
     <p id="acknowledgments-text">
       We are grateful to Aurelia Bunescu, <a href="https://dsouzadaniel.github.io/">Daniel D'Souza</a>,
@@ -114,7 +154,7 @@
       or recommendations expressed in this material are those of the authors and do not necessarily reflect the views
       of TRI or any other Toyota entity.
     </p>
-  </div>
+  </section>
 
 </div>
 
