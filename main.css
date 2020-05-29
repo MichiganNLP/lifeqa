@@ -3,31 +3,27 @@ html {
 }
 
 body {
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
+  margin: 0 0;
+  text-align: center;
 }
 
 .container {
   display: grid;
 }
 
-#lit {
+#tri {
   float: left;
-  margin-left: 10px;
-  margin-top: 10px;
-  height: 100px;
+  height: 120px;
+  margin-right: 12px;
 }
 
 #um {
   float: right;
+  margin-left: 14px;
   margin-right: 10px;
   margin-top: 10px;
   height: 100px;
-}
-
-h1 {
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 #quick-links {
@@ -40,10 +36,14 @@ h1 {
   margin: 0 10px;
 }
 
-section {
-  margin: 10px auto;
+.section-alt {
+  background-color: #d5e5f8;
+}
+
+.content {
+  margin: 0 auto;
   max-width: 950px;
-  padding: 0 25px;
+  padding: 10px 25px;
 }
 
 #abstract {
@@ -93,8 +93,6 @@ section {
   display: inline;
 }
 
-pre {
-  display: block;
-  text-align: left;
-  white-space: pre-wrap
+#acknowledgments-text {
+  margin-bottom: 50px;
 }
