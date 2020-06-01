@@ -93,6 +93,11 @@ body {
   display: inline;
 }
 
+#downloads {
+  list-style-type: none;
+  padding: 0;
+}
+
 #acknowledgments-text {
   margin-bottom: 50px;
 }
