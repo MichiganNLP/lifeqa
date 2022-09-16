@@ -7,5 +7,5 @@ Code for the [LifeQA website](https://lit.eecs.umich.edu/lifeqa).
 We used ImageMagick:
 
 ```bash
-convert [0-7] ${PDF_FILE}thumbnail x156 img/thumbs/.png
+convert $PDF_FILE[0-6] -thumbnail x156 img/thumbs/%d.png
 ```
